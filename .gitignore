@@ -43,7 +43,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*.cover
+*,cover
 .hypothesis/
 
 # Translations
@@ -67,7 +67,6 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebook
 .ipynb_checkpoints
 
 # pyenv
@@ -99,3 +98,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Rope project settings
+.ropeproject
